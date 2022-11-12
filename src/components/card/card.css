@@ -1,0 +1,57 @@
+.qrcode-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    height: 500px;
+    background-color: #feffff;
+    margin: 10rem 0 0 40rem;
+    border-radius: 10px;
+
+}
+.qrcode-card-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.qrcode-card-container h2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    color: #2e3753;
+    margin-top: 2rem;
+    width: 250px;
+}
+.qrcode-card-container p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    color:  hsl(220, 15%, 55%);
+    margin-top: 1rem;
+    width: 250px;
+}
+.qrcode-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    background-color: #3785ff;
+    border-radius: 10px;
+    margin-top: -2.7rem;
+}
+.qrcode-image img{
+    width: 180px;
+    height: auto;
+}
+@media screen and (max-width: 375px) {
+    .qrcode-card {
+        margin: 7rem 0 0 1.7rem;
+        width: 85%;
+    }
+}
